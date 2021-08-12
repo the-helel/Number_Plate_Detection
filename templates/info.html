@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information</title>
+    <link rel="stylesheet" href="./../static/css/style.css">
+ 
+</head>
+<body>
+    <h1><span class="blue"></span>Car's Owner<span class="blue"></span> <span class="yellow">Information</pan></h1>
+
+
+        <div class="container">
+            <img src="{{ url_for('static', filename='img/') + filename}}" alt="img2">
+            <div class="row">
+                <div class="col-md-6">
+                    <table class="container ">
+                        
+                        <tbody>
+                            <tr>
+                                <td>Description</td>
+                                <td>{{ desc }}</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Registration Year</td>
+                                <td>{{regyr}}</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Car Make</td>
+                                <td>{{carmake}}</td>
+                                
+                            </tr>
+                        <tr>
+                                <td>Car Model</td>
+                                <td>{{model}}</td>
+                                
+                            </tr>
+                        
+                            <tr>
+                                <td>Location</td>
+                                <td>{{location}}</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Registration Date</td>
+                                <td>{{registrationdate}}</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Engine Number</td>
+                                <td>{{engineNumber}}</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Vechile Identification Number</td>
+                                <td>{{IdentifyNumber}}</td>
+                                
+                            </tr>
+                            
+                        </tbody>
+                    </table> 
+                </div>
+                       
+            </div>
+        </div>
+        
+        
+</body>
+</html>
+
+
