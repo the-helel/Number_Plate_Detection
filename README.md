@@ -18,6 +18,9 @@
 ## Step 5 : Run The app
     python app.py
     
+## Step 6 : Redirect
+     http://127.0.0.1:5000/
+    
     
 ## Output :
 
