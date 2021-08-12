@@ -21,3 +21,10 @@
     
 ## Output :
 
+1. Upload Car Image
+
+![Upload Car Image](https://github.com/the-helel/Number_Plate_Detection/blob/main/Upload.png)
+
+2. Get Information
+
+![Get Information](https://github.com/the-helel/Number_Plate_Detection/blob/main/info.png)
